@@ -17,6 +17,6 @@ public class Desafio1{
 		 A = 3.14159 * (Math.pow( area ,2));
 
 		System.out.printf("A=%.4f ", A);
-		System.out.printf("Anderson ");
+		
 	}
 }
