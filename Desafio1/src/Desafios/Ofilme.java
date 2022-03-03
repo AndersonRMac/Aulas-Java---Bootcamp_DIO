@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.lang.FdLibm.Pow;
 import java.util.Scanner;
 
 public class DIO {
@@ -11,6 +12,7 @@ public class DIO {
     	
     	double aumento = (B * 100.0 / A) - 100.0;
         
+
     //procurar aula de string.format
 
     	System.out.println(String.format("%.2f%%", aumento));
