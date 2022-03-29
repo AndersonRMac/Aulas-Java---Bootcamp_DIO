@@ -25,6 +25,7 @@ public class UncheckedException {
     }while (continueLooping);
 
         System.out.println("O código continua...");
+        System.out.println("O código continua...");
     }
     public static int dividir (int a, int b){return a / b;}
 }
