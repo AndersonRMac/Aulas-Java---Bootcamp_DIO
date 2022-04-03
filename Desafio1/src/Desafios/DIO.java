@@ -1,7 +1,6 @@
 package Desafios;
 
 import java.io.IOException;
-import java.lang.FdLibm.Pow;
 import java.util.Scanner;
 
 public class DIO {

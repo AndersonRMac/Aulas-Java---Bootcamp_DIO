@@ -6,7 +6,7 @@ import java.io.*;
 public class Checked_Exception {
     public static void main(String[] args) {
 
-        String nomeDoArquivo = "fmilia-maciel.txt";
+        String nomeDoArquivo = "familia-maciel.txt";
 
 //está em negrito por conta do checked exception//
         try {
