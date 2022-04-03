@@ -18,7 +18,8 @@ public class Exception_personalizada {
                 int resultado = numerador[i] / denominador[i];
                 System.out.println(resultado);  
                 
-            }catch(DivisaoNaoExataEception e ){
+                //POSSO COLOCAR AS DEMAIS EXCEPTIONS NO CATCH//
+            }catch(DivisaoNaoExataEception | ArithmeticException | ArrayIndexOutOfBoundsException e ){
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, e.getMessage());
             }
