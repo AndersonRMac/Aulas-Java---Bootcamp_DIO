@@ -28,4 +28,7 @@ public class Minha_Threads1 extends Thread {
     }
 
 }
-//Métodos da Thread: *start; sleep;
+/* Etapas: 1- Crio a classe com extends Thread.
+           2- Crio o método contrutor da classe.Obs.: É aqui onde fica o método start(), que inicia meu código.
+           3- Crio o método run(), onde irei colocar toda a lógica do meu código.
+ */
