@@ -10,7 +10,7 @@ class cliente{
             Socket cliente = new Socket("localhost", 5225);
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Deu Ruim!");
         }
 
     }

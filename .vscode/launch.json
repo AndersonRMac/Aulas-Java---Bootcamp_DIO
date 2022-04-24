@@ -1,0 +1,126 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploList",
+            "request": "launch",
+            "mainClass": "AulaCollections.ExemploList",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayMultidimencional",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayMultidimencional",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Aulas.Arrays",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Checked_Exception",
+            "request": "launch",
+            "mainClass": "Aulas.Checked_Exception",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consoantes",
+            "request": "launch",
+            "mainClass": "Aulas.Consoantes",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exception_personalizada",
+            "request": "launch",
+            "mainClass": "Aulas.Exception_personalizada",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumerosAleatorios",
+            "request": "launch",
+            "mainClass": "Aulas.NumerosAleatorios",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch UncheckedException",
+            "request": "launch",
+            "mainClass": "Aulas.UncheckedException",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch teste",
+            "request": "launch",
+            "mainClass": "Aulas_Thread.teste",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DIO",
+            "request": "launch",
+            "mainClass": "Desafios.DIO",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio1",
+            "request": "launch",
+            "mainClass": "Desafios.Desafio1",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio2",
+            "request": "launch",
+            "mainClass": "Desafios.Desafio2",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Desafios.Main",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Moedas",
+            "request": "launch",
+            "mainClass": "Desafios.Moedas",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor",
+            "request": "launch",
+            "mainClass": "Sockets.Servidor",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch cliente",
+            "request": "launch",
+            "mainClass": "Sockets.cliente",
+            "projectName": "Desafios-da-DIO_d6a1cd6d"
+        }
+    ]
+}
