@@ -5,36 +5,33 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-
 class Servidor{
     public static void main(String[] args) {
-
+        
         try {
-            System.out.println("Servidor Iniciado.");
+            System.out.println("Servidor Iniciado!");
+            ServerSocket servidor = new ServerSocket(5225);
             
-                ServerSocket servidor = new ServerSocket(5225);
-                System.out.println("Aguardando conexão...");
+
+            //abrir o vigia de conexão socket com o cliente//
+            System.out.println("Aguardando conexão...");
+
             
-                Socket cliente = servidor.accept();
-    
-                System.out.println("Nova conexão com cliente: " + cliente.getInetAddress().getHostAddress());
+            Socket cliente = servidor.accept();
 
-                Scanner recebe = new Scanner(cliente.getInputStream());
+            System.out.println("Conectado ao cliente: " + cliente.getInetAddress().getHostAddress());
+            Scanner entrada = new Scanner(cliente.getInputStream());
+            
+            while (true) {
+                String msg = entrada.nextLine();
+                System.out.println(msg);
 
-                while (true) {    
-                    String msg = recebe.nextLine();
-                    System.out.println(msg);
-
-                    if(msg.equals("fim")) break;
-                                
+                if (msg.equals("fim")) break;
             }
-           
-
 
         } catch (IOException e) {
-            System.out.println("Deu Ruim!");
-
+            System.out.println("Conexão com servidor falhou!");
+            e.printStackTrace();
         }
-
     }
 }
