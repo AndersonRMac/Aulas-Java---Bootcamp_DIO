@@ -3,6 +3,7 @@ package AulaCollections;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -22,11 +23,19 @@ public class ExerciciosStreamAPI{
         
         });*/
 
-        System.out.println("Pegue os 5 primeiros numeros e coloque dentro de um SET: ");
+       /* System.out.println("Pegue os 5 primeiros numeros e coloque dentro de um SET: ");
             
         numerosAleatorios.stream()
         .limit(5)
         .collect(Collectors.toSet())
-        .forEach(System.out::println);
+        .forEach(System.out::println);*/
+
+        System.out.println("Transforme essa lista String em uma lista de numeros inteiros: ");
+
+        numerosAleatorios.stream()
+            .map(t -> Integer.parseInt(t));
+            
+           
+        
     }
 }

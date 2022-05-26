@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Aula01",
+            "request": "launch",
+            "mainClass": "DesenvolvimentoAvancado.Aula01",
+            "projectName": "Aulas-Java---Bootcamp_DIO_6aa6f082"
+        },
+        {
+            "type": "java",
             "name": "Launch ExerciciosStreamAPI",
             "request": "launch",
             "mainClass": "AulaCollections.ExerciciosStreamAPI",
